@@ -1,0 +1,10 @@
+@import url(https://iosevka-webfonts.github.io/iosevka/Iosevka.css);
+
+:root {
+  --bs-font-monospace: 'Iosevka Web', monospace
+}
+
+code {
+  // vertically centred asterisks
+  font-feature-settings: "cv99" 3;
+}

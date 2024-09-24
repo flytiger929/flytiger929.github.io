@@ -11,3 +11,8 @@ copyright:
     Except where otherwise noted, the blog posts on this site are licensed
     under the Creative Commons Attribution-ShareAlike 4.0 International
     (CC BY-SA 4.0) License by the author.
+
+df:
+  post:
+    strftime: "%Y-%m-%d"
+    dayjs: "YYYY-MM-DD"
