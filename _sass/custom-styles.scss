@@ -8,3 +8,9 @@ code {
   // vertically centred asterisks
   font-feature-settings: "cv99" 3;
 }
+
+// somehow this is hard-coded to 'sans-serif' in the theme
+// let's use one single font consistently
+#topbar-title {
+  font-family: $font-family-heading !important;
+}
