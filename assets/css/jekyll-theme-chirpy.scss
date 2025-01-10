@@ -1,0 +1,34 @@
+---
+---
+
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+$code-font-size: 0.95rem;
+$font-family-base: 'Roboto Slab', 'Microsoft Yahei', sans-serif;
+$font-family-heading: 'Roboto Slab', 'Microsoft Yahei', sans-serif;
+
+header .post-desc, body, h1, h2, h3, h4, h5 {
+  font-family: $font-family-heading !important;
+}
+
+@import url(https://iosevka-webfonts.github.io/iosevka/Iosevka.css);
+
+:root {
+  --bs-font-monospace: 'Iosevka Web', monospace
+}
+
+code {
+  // vertically centred asterisks
+  font-feature-settings: "cv99" 3;
+}
+
+// somehow this is hard-coded to 'sans-serif' in the theme
+// let's use one single font consistently
+#topbar-title {
+  font-family: $font-family-heading !important;
+}
