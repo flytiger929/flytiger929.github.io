@@ -6,7 +6,7 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: zh-CN
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Harbin
@@ -14,19 +14,19 @@ timezone: Asia/Harbin
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Ruifeng Xie
+title: 盛浩伦
 
-tagline: PhD student in Peking University
+tagline: 一个关于你自己的描述
 
 description: >- # used by seo meta and the atom feed
-  Personal home page for Ruifeng Xie at Peking University.
+  盛浩伦的个人主页
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://ruifengx.github.io"
+url: "https://flytiger929.github.io"
 
 github:
-  username: ruifengx
+  username: flytiger929
 
 twitter:
   username:
@@ -34,10 +34,11 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Ruifeng Xie
+  name: 盛浩伦
+  email: 695484377@qq.com
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/ruifengx
+    - https://flytiger929.github.io
 
 # Site Verification Settings
 webmaster_verifications:
@@ -47,6 +48,8 @@ webmaster_verifications:
   yandex: # fill in your Yandex verification code
   baidu: # fill in your Baidu verification code
   facebook: # fill in your Facebook verification code
+
+last_modified: false
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -93,7 +96,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/img/avatar.svg
+avatar: assets/img/pic.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

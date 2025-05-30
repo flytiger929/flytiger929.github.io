@@ -7,14 +7,11 @@
   icon: "fas fa-rss"
   noblank: true
 
-- type: orcid
-  icon: "fab fa-orcid"
-  url: https://orcid.org/0000-0001-7201-1954
+- type: email
+  icon: "fa-solid fa-envelope"
+  noblank: true
 
-- type: stack-overflow
-  icon: "fab fa-stack-overflow"
-  url: https://stackoverflow.com/users/8578679/ruifeng-xie
+- type: bilibili
+  icon: "fa-brands fa-bilibili"
+  url: https://space.bilibili.com/353713679
 
-- type: zhihu
-  icon: "fab fa-zhihu"
-  url: https://www.zhihu.com/people/krantz-40
