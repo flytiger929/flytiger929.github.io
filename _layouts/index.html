@@ -1,0 +1,23 @@
+---
+layout: default
+refactor: true
+---
+
+{% include lang.html %}
+
+<div id="content-div" style="line-height: 2; font-size: 20px;">
+
+  <style>
+    #content-div a,
+    #content-div a:visited,
+    #content-div a:active {
+      text-decoration: underline dashed;
+      color: inherit;
+    }
+    #content-div a:hover {
+      color: rgba(158, 158, 158, 1);
+    }
+  </style>
+
+  {{ content | markdownify }}
+</div>

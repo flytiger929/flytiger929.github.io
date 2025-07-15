@@ -16,7 +16,7 @@ timezone: Asia/Harbin
 
 title: 盛浩伦
 
-tagline: 一个关于你自己的描述
+# tagline: ""
 
 description: >- # used by seo meta and the atom feed
   盛浩伦的个人主页
